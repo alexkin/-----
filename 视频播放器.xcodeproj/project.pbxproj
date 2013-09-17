@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D570A217E88D0400F7105C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D570A117E88D0400F7105C /* UIKit.framework */; };
+		18D570A417E88D0400F7105C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D570A317E88D0400F7105C /* Foundation.framework */; };
+		18D570A617E88D0400F7105C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D570A517E88D0400F7105C /* CoreGraphics.framework */; };
+		18D570AC17E88D0400F7105C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18D570AA17E88D0400F7105C /* InfoPlist.strings */; };
+		18D570AE17E88D0400F7105C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D570AD17E88D0400F7105C /* main.m */; };
+		18D570B217E88D0400F7105C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D570B117E88D0400F7105C /* AppDelegate.m */; };
+		18D570B417E88D0400F7105C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D570B317E88D0400F7105C /* Default.png */; };
+		18D570B617E88D0400F7105C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D570B517E88D0400F7105C /* Default@2x.png */; };
+		18D570B817E88D0400F7105C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D570B717E88D0400F7105C /* Default-568h@2x.png */; };
+		18D570BB17E88D0400F7105C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D570BA17E88D0400F7105C /* ViewController.m */; };
+		18D570BE17E88D0400F7105C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D570BC17E88D0400F7105C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D5709E17E88D0400F7105C /* 视频播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D570A117E88D0400F7105C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18D570A317E88D0400F7105C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18D570A517E88D0400F7105C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18D570A917E88D0400F7105C /* 视频播放器-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "视频播放器-Info.plist"; sourceTree = "<group>"; };
+		18D570AB17E88D0400F7105C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18D570AD17E88D0400F7105C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D570AF17E88D0400F7105C /* 视频播放器-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "视频播放器-Prefix.pch"; sourceTree = "<group>"; };
+		18D570B017E88D0400F7105C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D570B117E88D0400F7105C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D570B317E88D0400F7105C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18D570B517E88D0400F7105C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18D570B717E88D0400F7105C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18D570B917E88D0400F7105C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D570BA17E88D0400F7105C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D570BD17E88D0400F7105C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D5709B17E88D0400F7105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D570A217E88D0400F7105C /* UIKit.framework in Frameworks */,
+				18D570A417E88D0400F7105C /* Foundation.framework in Frameworks */,
+				18D570A617E88D0400F7105C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D5709517E88D0400F7105C = {
+			isa = PBXGroup;
+			children = (
+				18D570A717E88D0400F7105C /* 视频播放器 */,
+				18D570A017E88D0400F7105C /* Frameworks */,
+				18D5709F17E88D0400F7105C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D5709F17E88D0400F7105C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D5709E17E88D0400F7105C /* 视频播放器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D570A017E88D0400F7105C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D570A117E88D0400F7105C /* UIKit.framework */,
+				18D570A317E88D0400F7105C /* Foundation.framework */,
+				18D570A517E88D0400F7105C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D570A717E88D0400F7105C /* 视频播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				18D570B017E88D0400F7105C /* AppDelegate.h */,
+				18D570B117E88D0400F7105C /* AppDelegate.m */,
+				18D570B917E88D0400F7105C /* ViewController.h */,
+				18D570BA17E88D0400F7105C /* ViewController.m */,
+				18D570BC17E88D0400F7105C /* ViewController.xib */,
+				18D570A817E88D0400F7105C /* Supporting Files */,
+			);
+			path = "视频播放器";
+			sourceTree = "<group>";
+		};
+		18D570A817E88D0400F7105C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D570A917E88D0400F7105C /* 视频播放器-Info.plist */,
+				18D570AA17E88D0400F7105C /* InfoPlist.strings */,
+				18D570AD17E88D0400F7105C /* main.m */,
+				18D570AF17E88D0400F7105C /* 视频播放器-Prefix.pch */,
+				18D570B317E88D0400F7105C /* Default.png */,
+				18D570B517E88D0400F7105C /* Default@2x.png */,
+				18D570B717E88D0400F7105C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D5709D17E88D0400F7105C /* 视频播放器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D570C117E88D0400F7105C /* Build configuration list for PBXNativeTarget "视频播放器" */;
+			buildPhases = (
+				18D5709A17E88D0400F7105C /* Sources */,
+				18D5709B17E88D0400F7105C /* Frameworks */,
+				18D5709C17E88D0400F7105C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "视频播放器";
+			productName = "视频播放器";
+			productReference = 18D5709E17E88D0400F7105C /* 视频播放器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D5709617E88D0400F7105C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Stefen;
+			};
+			buildConfigurationList = 18D5709917E88D0400F7105C /* Build configuration list for PBXProject "视频播放器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18D5709517E88D0400F7105C;
+			productRefGroup = 18D5709F17E88D0400F7105C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D5709D17E88D0400F7105C /* 视频播放器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D5709C17E88D0400F7105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D570AC17E88D0400F7105C /* InfoPlist.strings in Resources */,
+				18D570B417E88D0400F7105C /* Default.png in Resources */,
+				18D570B617E88D0400F7105C /* Default@2x.png in Resources */,
+				18D570B817E88D0400F7105C /* Default-568h@2x.png in Resources */,
+				18D570BE17E88D0400F7105C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D5709A17E88D0400F7105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D570AE17E88D0400F7105C /* main.m in Sources */,
+				18D570B217E88D0400F7105C /* AppDelegate.m in Sources */,
+				18D570BB17E88D0400F7105C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D570AA17E88D0400F7105C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D570AB17E88D0400F7105C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18D570BC17E88D0400F7105C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D570BD17E88D0400F7105C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D570BF17E88D0400F7105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D570C017E88D0400F7105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D570C217E88D0400F7105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "视频播放器/视频播放器-Prefix.pch";
+				INFOPLIST_FILE = "视频播放器/视频播放器-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18D570C317E88D0400F7105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "视频播放器/视频播放器-Prefix.pch";
+				INFOPLIST_FILE = "视频播放器/视频播放器-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D5709917E88D0400F7105C /* Build configuration list for PBXProject "视频播放器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D570BF17E88D0400F7105C /* Debug */,
+				18D570C017E88D0400F7105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D570C117E88D0400F7105C /* Build configuration list for PBXNativeTarget "视频播放器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D570C217E88D0400F7105C /* Debug */,
+				18D570C317E88D0400F7105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D5709617E88D0400F7105C /* Project object */;
+}

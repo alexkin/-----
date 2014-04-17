@@ -18,6 +18,8 @@
 		18D570B817E88D0400F7105C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D570B717E88D0400F7105C /* Default-568h@2x.png */; };
 		18D570BB17E88D0400F7105C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D570BA17E88D0400F7105C /* ViewController.m */; };
 		18D570BE17E88D0400F7105C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D570BC17E88D0400F7105C /* ViewController.xib */; };
+		18D570CB17E88EA500F7105C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D570CA17E88EA500F7105C /* MediaPlayer.framework */; };
+		18D570CD17E892CF00F7105C /* droplet.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18D570CC17E892CF00F7105C /* droplet.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		18D570B917E88D0400F7105C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18D570BA17E88D0400F7105C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18D570BD17E88D0400F7105C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18D570CA17E88EA500F7105C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18D570CC17E892CF00F7105C /* droplet.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = droplet.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D570CB17E88EA500F7105C /* MediaPlayer.framework in Frameworks */,
 				18D570A217E88D0400F7105C /* UIKit.framework in Frameworks */,
 				18D570A417E88D0400F7105C /* Foundation.framework in Frameworks */,
 				18D570A617E88D0400F7105C /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +78,7 @@
 		18D570A017E88D0400F7105C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18D570CA17E88EA500F7105C /* MediaPlayer.framework */,
 				18D570A117E88D0400F7105C /* UIKit.framework */,
 				18D570A317E88D0400F7105C /* Foundation.framework */,
 				18D570A517E88D0400F7105C /* CoreGraphics.framework */,
@@ -96,6 +102,7 @@
 		18D570A817E88D0400F7105C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18D570CC17E892CF00F7105C /* droplet.mp4 */,
 				18D570A917E88D0400F7105C /* 视频播放器-Info.plist */,
 				18D570AA17E88D0400F7105C /* InfoPlist.strings */,
 				18D570AD17E88D0400F7105C /* main.m */,
@@ -163,6 +170,7 @@
 				18D570B617E88D0400F7105C /* Default@2x.png in Resources */,
 				18D570B817E88D0400F7105C /* Default-568h@2x.png in Resources */,
 				18D570BE17E88D0400F7105C /* ViewController.xib in Resources */,
+				18D570CD17E892CF00F7105C /* droplet.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
